@@ -1,0 +1,14 @@
+# Tarefa 2 – Características segundo Richard Feldman
+
+- Performance: 
+Linguagens funcionais imutáveis facilitam a implementação de paralelismo e concorrência, Como os dados não podem ser alterados após a criação, 
+não há necessidade de locks para gerenciar o estado compartilhado entre diferentes threads. Isso não apenas previne erros comuns, 
+como race conditions, mas também permite que o compilador realize otimizações agressivas, aproveitando melhor a arquitetura de multi-core 
+para processar grandes volumes de dados simultaneamente com alta eficiência.
+
+
+- Desenvolvimento:
+O modelo funcional promove um código muito mais previsível e robusto. Ao priorizar funções puras que sempre retornam o mesmo resultado para a mesma entrada e não causam
+efeitos colaterais ocultos, o sistema se torna modular. Isso simplifica a criação de testes automatizados e o processo de debugging. Para o desenvolvedor, o maior ganho 
+é a confiança na hora de refatorar e manter o código, pois há a certeza de que alterar uma parte isolada não quebrará funcionalidades em outros lugares do sistema,
+aumentando a produtividade a longo prazo.
